@@ -15,6 +15,6 @@ transText=translator.translate(inputText).text
   
 myobj = gTTS(text=transText, lang=language, slow=False) 
 
-myobj.save("welcome.mp3") 
+myobj.save("speech.mp3") 
   
-playsound('welcome.mp3')
+playsound('speech.mp3')
